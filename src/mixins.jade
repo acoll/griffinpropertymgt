@@ -1,0 +1,17 @@
+mixin service(title, image, description)
+	section.6u(class='12u(narrower)')
+		.box.post
+			a.image.left.cutoff(href='#')
+				img(src='/images/#{image}')
+			.inner
+				h3 #{title}
+				if description
+					p #{description}
+				block
+
+mixin otherservices(title, list)
+	section.3u(class='6u$(narrower) 12u$(mobilep)')
+		h3 #{title}
+		ul.links
+			each item in list
+				li #{item}

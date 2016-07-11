@@ -1,0 +1,18 @@
+extends layout
+
+include mixins
+
+block main
+	section.wrapper.style1
+		.container
+			.row
+				+service('Residential Plowing', 'snow after.jpg', 'Our lineup of plows will make fast and efficient work of your driveway. We are cautious of your lawn cars and other obstacles making sure we leave your driveway free of snow. Check out our other snow services.')
+				
+				+service('Commercial Plowing', 'winter line.jpg', 'Griffin Property Management specializes in the needs of our commercial properties and plowing is no exception. With our fleet of plow trucks, tractors and skid steers, we can handle any size parking lot of complex. We plow roadways, condo driveways, and parking lots. We even have large snow blowers to clean snow from driveways and edges of roads.')
+			.row
+				+service('Other Services', 'hydro.jpg', '')
+					ul(style='font-size: 16px; line-height: normal')
+						li Shoveling
+						li Sanding/ salt
+						li Roof shoveling
+						li Snow removal

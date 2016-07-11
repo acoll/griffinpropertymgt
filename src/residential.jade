@@ -1,0 +1,35 @@
+extends layout
+
+include mixins
+
+block main
+	section.wrapper.style1
+		.container
+			.row
+				+service('Lawn Care', 'lines-2.jpg', 'Griffin Property Management provides a residential lawn care service above the rest. With our professional line of Scag mowers, our employees will leave your lawn looking professional and clean. We will also provide lawn clipping removal.')
+				
+				+service('Spring Clean Up', 'power brooms.jpg', 'When the snow has melted and spring is in the air, it’s time to start thinking about making your property shine. We provide a full clean up service, starting with picking up left over leaves from the fall and picking up winter debris. We repair plow damage, edge mulch beds, trim bushes, thatch lawns, and top it off with a fresh coat of mulch. Let us help you make your place shine again.')
+
+			.row
+				+service('Fall Clean Up', 'leaf box.jpeg', 'As the days grow shorter and the air begins to cool, leaves will begin to fall. We provide a full fall clean up service leaving your property free of leaves. We will even come in and remove the leaf piles you have already made.')
+				
+				+service('Tree & Brush Services', 'chipper.jpg', 'Griffin Property Management’s tree and brush service is an ever expanding part of our business. We cover it all from tree and brush cutting to debris removal. We also provide chipping and brush burning.')
+
+			.row
+				+service('Parking Lot sweeping', 'sweeper.jpg', 'We know that sand can build up from a long winter and can be a real headache to deal with in the spring. With our versatile parking lot sweeper, we leave your parking lots clean and sand free.')
+				
+				+service('Irrigation', 'parmelee lawn.jpg', 'Irrigation is one of the greatest things you can do for your lawn. Constant watering can keep your lawn lush and green. We can design, install, and maintain a system to keep your lawn looking its best.')
+			.row
+				+service('Lawn installation', 'hydro.jpg', 'Hydro-seeding is a wonderful means of installing new lawns and repairing plow damage. It will provide the greenest and healthiest grass all in one mix. With proper watering your lawn will quickly become the nicest lawn in the neighborhood.')
+				
+				+service('Other Services', 'tractor-2.jpg', '')
+					ul(style='font-size: 16px; line-height: normal')
+						li Parking lot sweeping
+						li Planting/ pruning
+						li Lawn fertilization
+						li Plug aerating
+						li Lawn thatching
+						li Mulching
+						li Plow damage repair
+						li Parking Lot striping
+						li House painting.

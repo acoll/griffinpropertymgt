@@ -1,0 +1,32 @@
+extends layout
+
+include mixins
+
+block main
+	section.wrapper.style1
+		.container
+			.row
+				+service('Lawn Care', 'lines-2.jpg', 'Griffin Property Management Specializes in commercial lawn care. We attend to every detail when grooming your property. Our commercial line of Scag lawn mores leaves your lawn looking professional and clean. Our employees will look for trash, mow the lawn, string trim the edges of beds and obstacles, and blow off all walkways of grass clippings and debris. We also provide grass clipping removal.')
+				+service('Spring Clean Up', 'power brooms.jpg', 'Griffin Property Management understands the importance of how your property should look when customers step on site. With our full spring cleanup, they will be blown away. We start by cleaning up left over leaves and all winter debris and repair any plow damage and pick up all the sand in the parking lots. We edge all the beds and tri all the bushes. We will also thatch the lawn to remove all the dead grass. Then we top it off with a fresh layer of mulch to make the whole property shine again.')
+
+			.row
+				+service('Fall Clean Up', 'leaf box.jpeg', 'As leaves begin to fall, we will be right there to pick them up. We will clean and blow the leaves away and suck up the rest and haul them away, leaving your companies property clean and free of leaves.')
+				+service('Tree & Brush Services', 'chipper.jpg', 'Griffin Property Managements tree and brush service is an ever expanding part of our business. We cover it all from tree and brush cutting and removal. We also provide chipping and brush burning.')
+
+			.row
+				+service('Irrigation', 'parmelee lawn.jpg', 'Irrigation is one the greatest things your can do for your lawn. Constant watering can keep your lawn lush and green. We can design and install and maintain a system to keep your lawn the best in the neighborhood.')
+				+service('Parking Lot sweeping', 'sweeper.jpg', 'We know that sand can build up from a long winter and can be a real headache to deal with in the spring. With our versatile parking lot sweeper, we leave your parking lots clean and sand free.')
+
+			.row
+				+service('Lawn installation', 'hydro.jpg', 'Hydro seed is a great means of installing and growing grass for your commercial property. It will provide the greenest and healthiest grass for your company’s lawn. It will be one of the first things your customers notice when walking on to the property.')
+				+service('Other Services', 'tractor-2.jpg', '')
+					ul(style='font-size: 16px; line-height: normal')
+						li Parking lot sweeping
+						li Planting/ pruning
+						li Lawn fertilization
+						li Plug aerating
+						li Lawn thatching
+						li Mulching
+						li Plow damage repair
+						li Parking Lot striping
+						li House painting.
